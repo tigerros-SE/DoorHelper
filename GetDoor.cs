@@ -29,7 +29,7 @@ namespace IngameScript.DoorHelper {
 			if (door == null) {
 				CurrentBColor = Color.Orange;
 				CurrentFColor = Color.Black;
-				Me.WritelnAndData($"WARNING: DOOR \"{doorName}\" DOES NOT EXIST");
+				Me.WriteLineAndData($"WARNING: DOOR \"{doorName}\" DOES NOT EXIST");
 				return null;
 			} else {
 				return door;

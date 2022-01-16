@@ -37,7 +37,7 @@ namespace IngameScript.DoorHelper {
 					var value = split[1];
 
 					if (type == "ALERT") {
-						Surface.Writeln($"INFO: ALERT {(value != "1" ? "DE" : "")}ACTIVATED");
+						Surface.WriteLine($"INFO: ALERT {(value != "1" ? "DE" : "")}ACTIVATED");
 
 						if (value == "1") {
 							if (Surface.BackgroundColor == Color.Yellow && Surface.FontColor == Color.Black) {

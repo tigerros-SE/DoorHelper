@@ -72,8 +72,8 @@ lock - Locks the door after opening/closing. The door is always unlocked before 
 
 			CurrentBColor = Color.Green;
 			CurrentFColor = Color.White;
-
-			Surface.Writeln("DOOR HANDLER STATUS: ONLINE", false);
+			
+			Surface.WriteLine("DOOR HANDLER STATUS: ONLINE", false);
 			Arguments["open|->*"] = Open;
 			Arguments["close|->*"] = Close;
 		}
